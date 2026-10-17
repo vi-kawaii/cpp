@@ -1,0 +1,64 @@
+# ===== Сборка (Makefile) =====
+build/
+*.o
+*.obj
+*.d
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# ===== MinGW / GCC =====
+*.gch
+*.pch
+*.stackdump
+*.gcda
+*.gcno
+*.gcov
+*.ltrans.o
+*.su
+*.idb
+*.pdb
+
+# ===== CMake (если добавите позже) =====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+
+# ===== IDE / редакторы =====
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Прочее
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Логи и временные файлы =====
+*.log
+*.tmp
+*.bak
